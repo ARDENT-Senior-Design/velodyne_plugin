@@ -6,7 +6,8 @@ To run this program:
 
 Open a new terminal and enter the following commands if the package was cloned into the home directory
 
-```cd ~/velodyne_plugin/build
+```
+cd ~/velodyne_plugin/build
 cmake ../
 make
 export LD_LIBRARY_PATH=${LD_LIBRARY_PATH}:~/velodyne_plugin/build
@@ -15,7 +16,8 @@ roscore
 
 Open another terminal:
 
-```cd ~/velodyne_plugin/build
+```
+cd ~/velodyne_plugin/build
 gazebo ../velodyne_plugin.world
 ```
 
