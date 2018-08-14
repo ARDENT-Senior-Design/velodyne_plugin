@@ -18,7 +18,7 @@ Open another terminal:
 
 ```
 cd ~/velodyne_plugin/build
-gazebo ../velodyne_plugin.world
+gazebo ../velodyne.world
 ```
 
 If the speed needs to be changes, publish to the LIDAR's speed:
