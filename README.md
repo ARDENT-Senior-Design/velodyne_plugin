@@ -25,4 +25,4 @@ If the speed needs to be changes, publish to the LIDAR's speed:
 rostopic pub /my_velodyne/vel_cmd std_msgs/Float32 1.0
 ```
 
-The default speed of the LIDAR is set to 25 rad/s in the velodyne.world folder
+The default speed of the LIDAR is set to 25 rad/s in the velodyne.world file
