@@ -61,13 +61,10 @@ namespace gazebo
       }
       //store model pointer for conventience
       this->model = _model;
-
       //get first joint. We are making an assumption aobut the model having one rotational joint
       this->joint = _model->GetJoints()[0];
-
       //setup P-controller, with a gain of 0.1
       this->pid = common::PID(0.1,0,0);
-
       //Apply the P-contrller to the joint
       this->model->GetJointController()->SetVelocityPID(this->joint->GetScopedName(),this->pid);
 
